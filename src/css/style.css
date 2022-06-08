@@ -2,10 +2,8 @@
 
 body{
     font-family: 'Inter', sans-serif;
-
     margin: 0;
     padding: 0;
-    background-color: black;
     width: 100vw;
     height: 100vh;
 }
@@ -18,7 +16,7 @@ body{
     height: 10%;
     padding: 2px;
     border-radius: 70px;
-    border: solid rgb(255, 255, 255);    
+    border: solid rgb(5, 5, 5);    
     justify-content: space-around;
     align-items:center;
     font-size: 32px;
@@ -26,13 +24,49 @@ body{
 }
 
 .fotos{
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items:center;
 }
 
 .model{
     width: 30vw;
     align-items:center;
+}
+
+nav{
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    justify-content:space-around;
+    text-align: center;
+    
+}
+
+ul li{
+    display: inline-block;
+  
+}
+
+ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    background-color: blueviolet;
+    border:rgb(0, 0, 0) solid 1px;
+    width: 15%;
+    height: 15%;
 }
